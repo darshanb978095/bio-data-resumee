@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume page">
+    <title>My Portfolio | Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="navbar container">
+        <a href="index.html" class="logo">My<span>Portfolio</span></a>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="resume.html">Resume</a></li>
+            <li><a href="biodata.html">Bio-data</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page">
+    <div class="container">
+        <div class="page-heading">
+            <p class="tag">PROFESSIONAL PROFILE</p>
+            <h1>My Resume</h1>
+            <p>A summary of my education, skills, projects and career interests.</p>
+        </div>
+
+        <section class="resume-grid">
+            <article class="resume-section">
+                <h2>Career Objective</h2>
+                <p>
+                    To obtain an opportunity where I can apply my programming,
+                    problem-solving and web development skills while continuously
+                    learning new technologies and contributing to meaningful projects.
+                </p>
+            </article>
+
+            <article class="resume-section">
+                <h2>Education</h2>
+                <div class="timeline-item">
+                    <span class="date">Current</span>
+                    <h3>Bachelor of Engineering - Computer Science</h3>
+                    <p>Engineering College | Karnataka</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">Completed</span>
+                    <h3>Pre-University / Higher Secondary</h3>
+                    <p>Higher Secondary Education</p>
+                </div>
+            </article>
+
+            <article class="resume-section">
+                <h2>Technical Skills</h2>
+                <div class="skill-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>jQuery</span>
+                    <span>Java</span>
+                    <span>C / C++</span>
+                    <span>SQL</span>
+                    <span>Git &amp; GitHub</span>
+                </div>
+            </article>
+
+            <article class="resume-section">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Rubik's Cube Solver &amp; Visualizer</h3>
+                    <p>
+                        An academic project that applies algorithmic techniques such as
+                        BFS, DFS, A*, IDDFS and heuristics to solve a Rubik's Cube.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A responsive multi-page website developed using HTML, CSS,
+                        JavaScript and jQuery.
+                    </p>
+                </div>
+            </article>
+
+            <article class="resume-section">
+                <h2>Strengths</h2>
+                <ul class="clean-list">
+                    <li>Problem-solving ability</li>
+                    <li>Quick learner</li>
+                    <li>Teamwork and communication</li>
+                    <li>Interest in learning new technologies</li>
+                </ul>
+            </article>
+
+            <article class="resume-section">
+                <h2>Declaration</h2>
+                <p>
+                    I hereby declare that the information provided in this resume is
+                    true and correct to the best of my knowledge.
+                </p>
+                <p class="signature">DARSHAN</p>
+            </article>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; <span id="year"></span> DARSHAN. All Rights Reserved.</p>
+        <p>Resume &amp; Bio-data Website</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume and Bio-data website">
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="navbar container">
+        <a href="index.html" class="logo">My<span>Portfolio</span></a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="biodata.html">Bio-data</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="tag">WELCOME TO MY WEBSITE</p>
+                <h1>Hello, I'm <span>DARSHAN</span></h1>
+                <h2>Engineering Student &amp; Aspiring Software Developer</h2>
+                <p>
+                    A simple multi-page personal website containing my resume,
+                    educational details, skills, projects and personal information.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="resume.html" class="btn primary">View Resume</a>
+                    <a href="biodata.html" class="btn secondary">View Bio-data</a>
+                </div>
+            </div>
+
+            <div class="profile-card">
+                <div class="profile-circle">D</div>
+                <h3>DARSHAN</h3>
+                <p>Computer Science Engineering</p>
+                <div class="mini-info">
+                    <span>💻 Web Development</span>
+                    <span>⚙️ Programming</span>
+                    <span>🚀 Problem Solving</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <p class="tag">ABOUT ME</p>
+                <h2>Building skills for the future</h2>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="icon">🎓</div>
+                    <h3>Education</h3>
+                    <p>Computer Science Engineering student with an interest in software and web technologies.</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">💻</div>
+                    <h3>Technical Skills</h3>
+                    <p>HTML, CSS, JavaScript, Java, C/C++, SQL and basic full-stack web development.</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">🎯</div>
+                    <h3>Career Goal</h3>
+                    <p>To become a skilled software developer by building practical projects and improving problem-solving skills.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; <span id="year"></span> BEAST. All Rights Reserved.</p>
+        <p>Resume &amp; Bio-data Website</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
